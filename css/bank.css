@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-section{
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 10px;
+}
+.submit-btn :hover{
+color:wheat;
+background-color: red !important;
+transition:ease-in 1s ;
+opacity: .7;
+}
+.depisit{
+background-color: #1FAA59;
+border-radius: 13px;
+opacity: .7;
+}
+.withdraw{
+background-color: #E03B8B;
+border-radius: 13px;
+opacity: .7;
+}
+.balance{
+background-color: #FF6666;
+border-radius: 13px;
+opacity: .7;
+}
+.please-deposit{
+    background-color:#6495ED ;
+    border-radius: 13px;
+    padding: 40px;
+}
+.please-withdraw{
+    background-color:#5DADE2 ;
+    border-radius: 13px;
+    padding: 40px;
+}

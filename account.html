@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Withdrow</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bank.css">
+</head>
+<body>
+   <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <h1 class="fs-3 fw-bolder mt-3 mb-3 text-center">Lets Get Some <span class="text-danger">Mooooooney</span>!!!!</h1>
+        </div>
+    </div>
+   </div>
+ <section>
+    <div class="container">
+        <div class="row">
+            <!-- diposit -->
+            <div class="col-md-4 col-sm-12">
+              <div class="depisit">
+                <div>
+                    <h1 class="fw-semibolder fs-3 text-white p-3">Deposit</h1>
+                    <h1 class="fw-semibolder fs-3 text-white p-3" >$<span id="diposit-dolor">00</span></h1>
+                </div>
+              </div>
+              </div>
+              <!-- withdraw -->
+              <div class="col-md-4 col-sm-12">
+              <div class="withdraw">
+                <div>
+                    <h1 class="fw-semibolder fs-3 text-white p-3">Withraw</h1>
+                    <h1 class="fw-semibolder fs-3 text-white p-3" >$<span id="withdraw-dolor">00</span></h1>
+                </div>
+              </div>
+            </div>
+            <!-- balance -->
+            <div class="col-md-4 col-sm-12">
+              <div class="balance">
+                <div>
+                    <h1 class="fw-semibolder fs-3 text-white p-3">Balance</h1>
+                    <h1 class="fw-semibolder fs-3 text-white p-3" >$<span id="balance-dolor">1240</span></h1>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+       </div>
+ </section>
+
+   <section>
+    <!-- deposit account -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 my-2">
+              <div class="please-deposit">
+                <h1 class="fw-semibolder fs-3 text-white">Pleae Deposit</h1>
+                <input type="text" placeholder="$ amout you want to deposit" class="border-0 p-2 d-block mb-2 rounded-1 w-50" id="diposit-field">
+                <button  class="border-0 text-white fw-semibolder fs-5 rounded-2 py-1 px-3 bg-success" id="diposit-btn">Deposit</button>
+              </div>
+            </div>
+            <!-- withdraw account -->
+            <div class="col-md-6 col-sm-12 my-2">
+              <div class="please-withdraw">
+                <h1 class="fw-semibolder fs-3 text-white">Please Withdraw</h1>
+                <input type="text" placeholder="$ amout you want to withdraw" class="border-0 p-2 d-block mb-2 rounded-1 w-50" id="withdraw-field">
+                <button class="border-0 text-white fw-semibolder fs-5 rounded-2 py-1 px-3 bg-success" id="withdraw-btn">Withdraw</button>
+              </div>
+            </div>
+        </div>
+       </div>
+   </section>
+
+<script src="js/account.js"></script>
+</body>
+</html>
